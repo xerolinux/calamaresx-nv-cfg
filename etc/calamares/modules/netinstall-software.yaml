@@ -17,7 +17,7 @@
       description: "Fast, private and secure web browser"
     - name: "FileZilla"
       package: filezilla
-      description: "Cross-platform FTP, FTPS and SFTP client"
+      description: "Cross-platform FTP and SFTP Browser"
     - name: "Brave Browser"
       package: brave-bin
       description: "Privacy-first browser with built-in ad blocking"
@@ -43,7 +43,7 @@
       package: ungoogled-chromium-bin
       description: "Chromium without Google services"
 
-- name: "BTRFS (Choose only one)"
+- name: "BTRFS (Only One)"
   description: "In case of BTFRS select preferred method"
   critical: false
   hidden: false
@@ -59,23 +59,6 @@
     - name: "Timeshift Autosnap"
       package: timeshift-autosnap
       description: "Runs before package upgrade using Pacman hook."
-
-- name: "VPN Clients"
-  description: "Secure your internet connection with VPN services"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - name: "ExpressVPN"
-      package: expressvpn
-      description: "Fast and secure VPN service"
-    - name: "Mozilla VPN"
-      package: mozillavpn
-      description: "Privacy-focused VPN by Mozilla"
-    - name: "ProtonVPN"
-      package: proton-vpn-cli
-      description: "Secure VPN by the makers of ProtonMail"
 
 - name: "Social & Communication"
   description: "Stay connected with friends and communities"
@@ -93,12 +76,18 @@
     - name: "Discord"
       package: discord
       description: "Voice, video and text chat platform"
+    - name: "Vesktop"
+      package: vesktop
+      description: "A Discord Alternative with Vencord"
     - name: "Element"
       package: element-desktop
       description: "Secure Matrix messenger client"
     - name: "Telegram"
       package: telegram-desktop
       description: "Fast and secure messaging app"
+    - name: "Nheko"
+      package: nheko
+      description: "Desktop client for the Matrix protocol"
     - name: "Ferdium"
       package: ferdium-bin
       description: "All-in-one messaging app organizer"
@@ -212,16 +201,13 @@
       package: blender
       description: "3D creation suite for modeling and animation"
 
-- name: "Audio Production"
-  description: "Music players and audio production software"
+- name: "Audio Tools"
+  description: "Music players and audio production tools"
   critical: false
   hidden: false
   selected: false
   expanded: false
   packages:
-    - name: "mpv"
-      package: mpv
-      description: "Lightweight, powerful media player"
     - name: "Amarok"
       package: amarok
       description: "Feature-rich music player for KDE"
@@ -239,12 +225,15 @@
       description: "Audio effects for PipeWire applications"
 
 - name: "Video Production"
-  description: "Video editing and conversion tools"
+  description: "Video Players & editing tools"
   critical: false
   hidden: false
   selected: false
   expanded: false
   packages:
+    - name: "mpv"
+      package: mpv
+      description: "Lightweight, powerful media player"
     - name: "MystiQ"
       package: mystiq
       description: "FFmpeg-based video converter with GUI"
