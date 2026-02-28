@@ -2,8 +2,19 @@
 # User-selectable packages with humanized names and descriptions
 # Format: name = display name, package = actual package for pacman
 ---
-- name: "Web Browsers"
-  description: "Browse the internet with privacy and speed"
+- name: "Mozilla Firefox"
+  description: "Default Browser"
+  hidden: false
+  selected: false
+  critical: false
+  packages:
+    - firefox
+    - firefox-i18n-$LOCALE
+    - firefox-dark-reader
+    - firefox-adblock-plus
+
+- name: "Other Misc Browsers"
+  description: "A selection of other Browsers"
   critical: false
   hidden: false
   selected: false
@@ -12,9 +23,6 @@
     - name: "Floorp"
       package: floorp
       description: "Privacy-focused Firefox fork with enhanced customization"
-    - name: "Mozilla Firefox"
-      package: firefox
-      description: "Fast, private and secure web browser"
     - name: "FileZilla"
       package: filezilla
       description: "Cross-platform FTP and SFTP Browser"
@@ -44,7 +52,7 @@
       description: "Chromium without Google services"
 
 - name: "BTRFS (Only One)"
-  description: "In case of BTFRS select preferred method"
+  description: "In case of BTRFS select preferred method"
   critical: false
   hidden: false
   selected: false
@@ -92,28 +100,18 @@
       package: ferdium-bin
       description: "All-in-one messaging app organizer"
 
-- name: "Office Suite"
-  description: "Create documents, spreadsheets and presentations"
+- name: "LibreOffice Suite"
+  description: "LibreOffice Fresh version"
   critical: false
   hidden: false
   selected: false
   expanded: false
   packages:
-    - name: "Hunspell"
-      package: hunspell
-      description: "Spell checker and morphological analyzer"
-    - name: "LibreOffice Fresh"
-      package: libreoffice-fresh
-      description: "Full-featured office productivity suite"
-    - name: "Hunspell Language Pack"
-      package: hunspell-$LOCALE
-      description: "Spell checking for your language"
-    - name: "TexMaths"
-      package: libreoffice-extension-texmaths
-      description: "LaTeX equation editor for LibreOffice"
-    - name: "Writer2LaTeX"
-      package: libreoffice-extension-writer2latex
-      description: "Export LibreOffice documents to LaTeX"
+    - hunspell
+    - hunspell-$LOCALE
+    - libreoffice-fresh
+    - libreoffice-extension-texmaths
+    - libreoffice-extension-writer2latex
 
 - name: "Development Tools"
   description: "Tools for coding and version control"
