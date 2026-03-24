@@ -51,23 +51,6 @@
       package: ungoogled-chromium-bin
       description: "Chromium without Google services"
 
-- name: "BTRFS (Only One)"
-  description: "In case of BTRFS select preferred method"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: false
-  packages:
-    - name: "Snapper Support"
-      package: snapper-support
-      description: "Snapper with snap-pac and grub-btrfs support"
-    - name: "BTRFS Assistant"
-      package: btrfs-assistant
-      description: "Manage BTRFS subvolumes and Snapper snapshots"
-    - name: "Timeshift Autosnap"
-      package: timeshift-autosnap
-      description: "Runs before package upgrade using Pacman hook."
-
 - name: "Social & Communication"
   description: "Stay connected with friends and communities"
   critical: false
