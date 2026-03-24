@@ -20,35 +20,25 @@
   selected: false
   expanded: false
   packages:
-    - name: "Floorp"
-      package: floorp
+    - name: floorp
       description: "Privacy-focused Firefox fork with enhanced customization"
-    - name: "FileZilla"
-      package: filezilla
+    - name: filezilla
       description: "Cross-platform FTP and SFTP Browser"
-    - name: "Brave Browser"
-      package: brave-bin
+    - name: brave-bin
       description: "Privacy-first browser with built-in ad blocking"
-    - name: "LibreWolf"
-      package: librewolf
+    - name: librewolf
       description: "Privacy-hardened Firefox fork without telemetry"
-    - name: "Vivaldi"
-      package: vivaldi-meta
+    - name: vivaldi-meta
       description: "Feature-rich, customizable Chromium-based browser"
-    - name: "Tor Browser"
-      package: tor-browser-bin
+    - name: tor-browser-bin
       description: "Anonymous browsing through the Tor network"
-    - name: "Mullvad Browser"
-      package: mullvad-browser-bin
+    - name: mullvad-browser-bin
       description: "Privacy-focused browser by Mullvad VPN"
-    - name: "Helium Browser"
-      package: helium-browser-bin
-      description: "Private &, fast web browser based on Chromium"
-    - name: "Zen Browser"
-      package: zen-browser-bin
+    - name: helium-browser-bin
+      description: "Private & fast web browser based on Chromium"
+    - name: zen-browser-bin
       description: "Performance oriented Firefox-based web browser"
-    - name: "Ungoogled Chromium"
-      package: ungoogled-chromium-bin
+    - name: ungoogled-chromium-bin
       description: "Chromium without Google services"
 
 - name: "Social & Communication"
@@ -58,29 +48,21 @@
   selected: false
   expanded: false
   packages:
-    - name: "ZapZap"
-      package: zapzap
+    - name: zapzap
       description: "WhatsApp desktop client for Linux"
-    - name: "Tokodon"
-      package: tokodon
+    - name: tokodon
       description: "Mastodon client for KDE Plasma"
-    - name: "Discord"
-      package: discord
+    - name: discord
       description: "Voice, video and text chat platform"
-    - name: "Vesktop"
-      package: vesktop
+    - name: vesktop
       description: "A Discord Alternative with Vencord"
-    - name: "Element"
-      package: element-desktop
+    - name: element-desktop
       description: "Secure Matrix messenger client"
-    - name: "Telegram"
-      package: telegram-desktop
+    - name: telegram-desktop
       description: "Fast and secure messaging app"
-    - name: "Nheko"
-      package: nheko
+    - name: nheko
       description: "Desktop client for the Matrix protocol"
-    - name: "Ferdium"
-      package: ferdium-bin
+    - name: ferdium-bin
       description: "All-in-one messaging app organizer"
 
 - name: "LibreOffice Suite"
@@ -103,17 +85,13 @@
   selected: false
   expanded: false
   packages:
-    - name: "Hugo"
-      package: hugo
+    - name: hugo
       description: "Fast static site generator written in Go"
-    - name: "Meld"
-      package: meld
+    - name: meld
       description: "Visual diff and merge tool"
-    - name: "VSCodium"
-      package: vscodium-bin
+    - name: vscodium-bin
       description: "VS Code without Microsoft telemetry"
-    - name: "GitHub Desktop"
-      package: github-desktop
+    - name: github-desktop
       description: "Git GUI client for GitHub"
 
 - name: "Password Managers"
@@ -123,11 +101,9 @@
   selected: false
   expanded: false
   packages:
-    - name: "KeePassXC"
-      package: keepassxc
+    - name: keepassxc
       description: "Cross-platform offline password manager"
-    - name: "Bitwarden"
-      package: bitwarden
+    - name: bitwarden
       description: "Open source cloud password manager"
 
 - name: "Android Development"
@@ -137,26 +113,19 @@
   selected: false
   expanded: false
   packages:
-    - name: "Heimdall"
-      package: heimdall
+    - name: heimdall
       description: "Flash firmware to Samsung devices"
-    - name: "QtScrcpy"
-      package: qtscrcpy
+    - name: qtscrcpy
       description: "Display and control Android via USB/WiFi"
-    - name: "ADB Manager"
-      package: adbmanager
+    - name: adbmanager
       description: "Graphical ADB management tool"
-    - name: "Android udev Rules"
-      package: android-udev
+    - name: android-udev
       description: "USB access rules for Android devices"
-    - name: "Android Tools"
-      package: android-tools
+    - name: android-tools
       description: "ADB and fastboot utilities"
-    - name: "Android Platform Tools"
-      package: android-platform
+    - name: android-platform
       description: "Core platform development tools"
-    - name: "Android SDK Platform Tools"
-      package: android-sdk-platform-tools
+    - name: android-sdk-platform-tools
       description: "Official SDK tools from Google"
 
 - name: "Graphics & Design"
@@ -166,20 +135,15 @@
   selected: false
   expanded: false
   packages:
-    - name: "GIMP"
-      package: gimp
+    - name: gimp
       description: "Powerful open source image editor"
-    - name: "Godot Engine"
-      package: godot
+    - name: godot
       description: "Feature-packed 2D and 3D game engine"
-    - name: "Krita"
-      package: krita
+    - name: krita
       description: "Professional digital painting application"
-    - name: "Inkscape"
-      package: inkscape
+    - name: inkscape
       description: "Professional vector graphics editor"
-    - name: "Blender"
-      package: blender
+    - name: blender
       description: "3D creation suite for modeling and animation"
 
 - name: "Audio Tools"
@@ -189,20 +153,15 @@
   selected: false
   expanded: false
   packages:
-    - name: "Amarok"
-      package: amarok
+    - name: amarok
       description: "Feature-rich music player for KDE"
-    - name: "Spotify"
-      package: spotify
+    - name: spotify
       description: "Music streaming service client"
-    - name: "Tenacity"
-      package: tenacity
+    - name: tenacity
       description: "Multi-track audio editor (Audacity fork)"
-    - name: "JamesDSP"
-      package: jamesdsp
+    - name: jamesdsp
       description: "Audio effects processor for PipeWire"
-    - name: "Easy Effects"
-      package: easyeffects
+    - name: easyeffects
       description: "Audio effects for PipeWire applications"
 
 - name: "Video Production"
@@ -212,26 +171,19 @@
   selected: false
   expanded: false
   packages:
-    - name: "mpv"
-      package: mpv
+    - name: mpv
       description: "Lightweight, powerful media player"
-    - name: "MystiQ"
-      package: mystiq
+    - name: mystiq
       description: "FFmpeg-based video converter with GUI"
-    - name: "MakeMKV"
-      package: makemkv
+    - name: makemkv
       description: "DVD and Blu-ray to MKV converter"
-    - name: "Kdenlive"
-      package: kdenlive
+    - name: kdenlive
       description: "Professional non-linear video editor"
-    - name: "Avidemux"
-      package: avidemux-qt
+    - name: avidemux-qt
       description: "Simple video cutting and encoding"
-    - name: "MKVToolNix"
-      package: mkvtoolnix-gui
+    - name: mkvtoolnix-gui
       description: "Matroska file editing and inspection"
-    - name: "LosslessCut"
-      package: losslesscut-bin
+    - name: losslesscut-bin
       description: "Fast lossless video/audio trimming"
 
 - name: "Additional Fonts"
@@ -241,30 +193,21 @@
   selected: false
   expanded: false
   packages:
-    - name: "Noto Fonts"
-      package: noto-fonts
+    - name: noto-fonts
       description: "Google's font family covering all languages"
-    - name: "DejaVu Fonts"
-      package: ttf-dejavu
+    - name: ttf-dejavu
       description: "Improved Bitstream Vera fonts"
-    - name: "Asian Fonts (>1GB)"
-      package: asian-fonts
+    - name: asian-fonts
       description: "CJK (Chinese, Japanese, Korean) fonts"
-    - name: "Caladea"
-      package: ttf-caladea
+    - name: ttf-caladea
       description: "Metric-compatible Cambria replacement"
-    - name: "Carlito"
-      package: ttf-carlito
+    - name: ttf-carlito
       description: "Metric-compatible Calibri replacement"
-    - name: "Liberation Fonts"
-      package: ttf-liberation
+    - name: ttf-liberation
       description: "Metric-compatible MS fonts replacement"
-    - name: "Linux Libertine"
-      package: ttf-linux-libertine-g
+    - name: ttf-linux-libertine-g
       description: "Elegant serif and sans-serif fonts"
-    - name: "Source Code Pro"
-      package: adobe-source-code-pro-fonts
+    - name: adobe-source-code-pro-fonts
       description: "Monospace font for coding"
-    - name: "Source Serif Pro"
-      package: adobe-source-serif-pro-fonts
+    - name: adobe-source-serif-pro-fonts
       description: "Elegant serif font by Adobe"
